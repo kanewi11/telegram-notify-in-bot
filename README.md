@@ -12,4 +12,4 @@
 
 # Запуск
 - `poetry shell`
-- `python main.py` или для linux `python3 main.py`
+- `python main.py`
