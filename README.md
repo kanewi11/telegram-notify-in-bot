@@ -1,6 +1,8 @@
 # Установка
 - Установить `Python` версии `>= 3.10`
-- `pip install poetry` или для linux `pip3 install poetry`
+- Команда `pip install poetry` или для linux `pip3 install poetry`
+- `git clone https://github.com/kanewi11/telegram-notify-in-bot.git`
+- Перейти в директорию `telegram-notify-in-bot/`
 - `poetry install` - установка библиотек
 
 
