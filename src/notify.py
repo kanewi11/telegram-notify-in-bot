@@ -30,8 +30,7 @@ class Notify(Http):
         if not telegram_id or not text:
             return
 
-        url = f"{self._telegram_host}{
-            self._send_message_url.substitute(token=self._bot_token)}"
+        url = f"{self._telegram_host}{self._send_message_url.substitute(token=self._bot_token)}"
         params = {
             "chat_id": telegram_id,
             "text": text,
